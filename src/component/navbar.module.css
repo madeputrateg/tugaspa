@@ -1,0 +1,27 @@
+.kurungan{
+    width:100%;
+    height: 80px;
+    background-color: black;
+    color:white;
+}
+.kanan{
+    height: 80px;
+    position: absolute;
+    right:0%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.kiri{
+    height: 80px;
+    width: 40%;
+    position: absolute;
+    left: 0%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width:80px;
+    height:80px;
+}

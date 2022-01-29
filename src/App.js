@@ -1,13 +1,21 @@
 import Navgasi from "./component/navbar";
-import { Button } from "react-bootstrap";
+import warna from "./App.module.css";
+import Home from "./home";
+import { BrowserRouter,Routes,Route,Navigate,Outlet  } from "react-router-dom";
+
 
 function App (){
- return (<div>
-    <Navgasi/>
-    <Button variant="flat" size="xxl">
-      flat button
-    </Button>
-  </div>)   
+ return (
+    <BrowserRouter>
+    <Routes >
+    <Route path="/" element={<div><Navgasi className={warna.navbar}/><Outlet></Outlet></div>}>
+        <Route path="" element={<Navigate to="/home"></Navigate>}></Route>
+        <Route path="home" element={<Home></Home>}></Route>
+    </Route>
+    </Routes>
+    <Outlet></Outlet>
+    </BrowserRouter>
+  )   
 }
 
 export default App;
