@@ -1,0 +1,11 @@
+home page tempatnya untuk ngeliatin aplikasi profile yang 
+ada like dislike
+profile
+    -tentang
+    -nama
+    -umur
+    -password
+    -mengubah profile yang ada
+
+pencarian 
+mencari profile yang merip dengan ketentuan dicari
