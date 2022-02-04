@@ -27,7 +27,7 @@ function Profilehead(){
     halo ini bukan siapa
     halo ini bukan siapa halo ini bukan siapa halo ini bukan siapa halo ini bukan siapa halo ini bukan siapa halo ini bukan siapahalo ini bukan siapa
     halo ini bukan siapahalo ini bukan siapa halo ini bukan siapa
-    </p>
+    </p><span>change bio</span>
     </Box>)
 }
 

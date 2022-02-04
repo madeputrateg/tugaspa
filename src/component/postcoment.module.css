@@ -20,7 +20,14 @@
     width:min(200px,50%);
     justify-content: space-between;
     color:gray;
+    cursor: pointer;
 }
 .likeanddislike:active{
     background-color: rgba(rgba(0, 0, 0, 0.226), green, blue, alpha);
+}
+.comment{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+
 }

@@ -47,3 +47,39 @@
     height: 40px;
     margin-right:10px;
 }
+.dropper{
+    display:flex;
+    width:auto;
+    height:auto;
+    flex-direction: column;
+    
+}
+.dropper>div{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    background-color:tomato;
+    height:80px;
+    flex-direction: row;
+}
+.kanandrops{
+    height: 80px;
+    width :40%;
+    position: absolute;
+    right:0%;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.kays{
+    height: 80px;
+    width :100%;
+    position: absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.spanbut{
+    padding-left:10px;
+}
